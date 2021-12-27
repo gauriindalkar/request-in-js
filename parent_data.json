@@ -1,0 +1,1077 @@
+{
+    "course": {
+        "id": "212",
+        "name": "JS Variables",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "We will discuss about javascript variables.",
+        "type": "js",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "6480",
+                "parent_exercise_id": null,
+                "course_id": "212",
+                "name": "Variables",
+                "slug": "js-variables_json__Variables_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Variables.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myName;"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the above example it creates a <span style=\"\">variable</span> called myName."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We tell JavaScript to create or declare a <span style=\"\">variable</span> by putting the <span style=\"\">key</span>word var. Some other <span style=\"\">key</span>words are also there to declare <span style=\"\">variables</span> like let and const, about them we will learn in later of this document."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In javascript <span style=\"\">statements</span> end with semicolons(;). <span style=\"\">Variable</span> names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the computer world data is everything which is meaningful to computers. We have so many different types of data types which are <span style=\"\">string</span>, number, boolean, object , undefined , null etc.,<br>We tell JavaScript to create or declare a <span style=\"\">variable</span> by putting the <span style=\"\">key</span>word var."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Some Exercises:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the var keyword to create a variable called ourCampusName?<br><br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var ourCampusName;"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the var keyword to create a variable called myVillage?<br><br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var myVillage;"
+                    }
+                ]
+            },
+            {
+                "id": "6479",
+                "parent_exercise_id": null,
+                "course_id": "212",
+                "name": "Storing-a-value-into-variable",
+                "slug": "js-variables_json__Storing-a-value-into-variable_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Storing-a-value-into-variable.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myLuckyNumber= 3;"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here, we stored 3 as a value and it is stored in a <span style=\"\">variable</span> named myLuckynumber."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myResult= 2+3;<br>console.log(myResult);<br>// output: 5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A <span style=\"\">variable</span> is simply the name of a storage location and <span style=\"\">variables</span> work like a container to hold the value that we give after equal to (=). = (equal to ) is used to assign a value to a <span style=\"\">variable</span>, if you do any operation such as addition, multiplication and it will compute first and assign the <span style=\"\">output</span> to the <span style=\"\">variable</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "we use this console.log(); for printing the <span style=\"\">output</span> in logs."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Examples:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a boolean to a variable isHealthy?<br><br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var isHealthy = true;<br><br>### Explanation:<br><br>In the above question we stored true a boolean value in a variable named as isHealthy, by this you can get to know we can store any data type as a value to a variable."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Multiply two numbers and store it in variable multiplyTwoNumbers?<br><br>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var multiplyTwoNumbers =3*3;<br>console.log(multiplyTwoNumbers);<br>// output: 9<br><br>### Explanation:<br><br>9 is the output because first it will compute 3*3 and assign it to a variable named multiplyTwoNumbers and print 9."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myName;<br>myName = \"kumar\";<br>var myFullName;<br>myFullName = myName;<br>console.log(myFullName);<br>// output: kumar"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The above myName is declared with no value, then assigns a value “kumar” in it. And after that we declare a <span style=\"\">variable</span> myFullName with no value. If you want to define “kumar” in myFullName you can do it by  directly assigning  myName to myFullname."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note: You can assign a <span style=\"\">variable</span> to another <span style=\"\">variable</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myName;<br>myName = \"kumar\";<br>var myFullName;<br>myFullName=\"nayak Vadthya\";<br>var FullName = myName+\" \"+myFullName;<br>console.log(FullName);<br>// output: kumar nayak Vadthya"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As you know from the previous example,you learnt how to store a <span style=\"\">variable</span> into another <span style=\"\">variable</span>. Now in this example We added two <span style=\"\">variables</span> myName and myFullName which contain the values “kumar” and “nayak vadthya” respectively and store it in FullName. So when we printed FullName it showed the value as kumar nayak Vadthya."
+                    }
+                ]
+            },
+            {
+                "id": "6482",
+                "parent_exercise_id": null,
+                "course_id": "212",
+                "name": "Case-sensitive",
+                "slug": "js-variables_json__Case-sensitive_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Case-sensitive.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var Name = \"komal\";<br>var name = \"swati\";<br>console.log(Name+name)<br>// output: komalswati<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As <span style=\"\">variables</span> are case sensitive. It means x and X are different <span style=\"\">variables</span>. You can see clearly in this above two <span style=\"\">variables</span> one is Name we have with N (capital N) and second one is also name but started with n (small n), both are different  to look and JS feels also it as a different <span style=\"\">variable</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var num_12 = 24;<br>console.log(12num)<br><br>// Output : SyntaxError: Invalid or unexpected token<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As the above example throws an <span style=\"\">error</span> because according to the rules of naming <span style=\"\">variables</span>, We can not use numbers in the starting of <span style=\"\">variables</span> Like 12num . If we do it then our computer will be confused and will throw an <span style=\"\">error</span> because it doesn’t know to start a <span style=\"\">variable</span> with a number."
+                    }
+                ]
+            },
+            {
+                "id": "6481",
+                "parent_exercise_id": null,
+                "course_id": "212",
+                "name": "Escape-Sequences-in-strings",
+                "slug": "js-variables_json__Escape-Sequences-in-strings_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Escape-Sequences-in-strings.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var string1= \"I am staying in the \\\"Sarjapur Campus\\\"\"<br>console.log(string1)<br>// output: I am staying in the \"Sarjapur Campus\"<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "See in the above example, you want double quotes to Sarjapur Campus, but because the whole <span style=\"\">string</span> is also in double quotes you can ignore double quotes that are there to Sarjapur Campus by using backslashes."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "See, when you are defining a <span style=\"\">string</span> you can use single or double quotes, but somewhere if you want literal quotes( double quotes(“ “) or single quotes(‘ ‘) ) so to fulfill that need we can use backslash() to ignore literal wherever we want."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var string1= \"I am staying in the 'Sarjapur Campus' \"<br>console.log(string1)<br><br>// output: I am staying in the 'Sarjapur Campus'<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you just want single quotes around Sarjapur Campus you can put the whole <span style=\"\">string</span> in double quotes and put Sarjapur Campus in single quotes. Or else vice-versa format also as shown below."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var myFavPlace= 'My favourite place is \"Paris\"';<br>console.log(myFavPlace);<br><br>// output: My favourite place is 'Paris'<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you like paris more and you want to put in single quotes, you put everything in double quotes and Paris in single quotes."
+                    }
+                ]
+            },
+            {
+                "id": "6483",
+                "parent_exercise_id": null,
+                "course_id": "212",
+                "name": "Type-Coercion",
+                "slug": "js-variables_json__Type-Coercion_json",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Type-Coercion.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var name = \"navgurukul\";<br>var num = 29;<br>var result = name + num;<br>console.log(result);<br>// Output :  navgurukul29 <br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you look at the <span style=\"\">variable</span> result, you may think that this <span style=\"\">variable</span> is trying to add a <span style=\"\">string</span> (navgurukul) to a number (29). But that is not the case, because you cannot add a <span style=\"\">string</span> to a number. JS in such circumstances, will convert the number 29 into the <span style=\"\">string</span> “29” and will join (or concatenate) the two <span style=\"\">strings</span>.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Thus the <span style=\"\">output</span> of result will be <b>navgurukul29</b>  "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This auto converting of a value from one type to another — such as number to <span style=\"\">string</span> — in JS is called <b>Type Coercion</b>.  "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var measure = \"height\";<br>var val = 16.5;<br>var result = measure + val;<br>console.log(result);<br><br>// Output :- height16.5<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you look at the <span style=\"\">variable</span> result, you may think that this <span style=\"\">variable</span> is trying to add a <span style=\"\">string</span> (height) to a <span style=\"\">float</span> (16.5). But that is not the case, because you cannot add a <span style=\"\">string</span> to a number. JS in such circumstances, will convert the <span style=\"\">float</span> 16.5 into the <span style=\"\">string</span> “16.5” and will join (or concatenate) the two <span style=\"\">strings</span>.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Thus the <span style=\"\">output</span> of result will be <b>height16.5</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This auto converting of a value from one type to another — such as <span style=\"\">float</span> to <span style=\"\">string</span> — in JS is called Type Coercion."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Examples:"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "What is the output of the following code?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "console.log(true + false)<br>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "// <span style=\"\">Output</span> : 1"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "### Explanation:<br><br>1 is considered to be true because it is non-zero. Thus the reason true  value is 1, False value is 0. It will compute true+false as 1+0 and prints 1.<br><br><br>2. What is the error in this program?<br>javascript<br>var num=24<br>var a=\"kumar\"<br>console.log(24/\"kumar\")<br>// Output : NaN<br>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Explanation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "There is no <span style=\"\">error</span> in this following <span style=\"\">code</span>. But it will return a NaN, when a number is divided by non <span style=\"\">integer</span> so it is not able to solve the problem."
+                    }
+                ]
+            },
+            {
+                "id": "6223",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question1",
+                "slug": "js-variables_json__Exercises/Question1_json",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Assign the value of num1 to <span style=\"\">variable</span> num2."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var num1;<br>num1 = 6;<br>var num2;"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "num2=num1;<br><br>### Expalanation<br><br>By writing num2 = num1 , we are assigning num1 as a value to num2 by using assignment operator. So, num2 will get the value of 6 if we print it."
+                    }
+                ]
+            },
+            {
+                "id": "6224",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question2",
+                "slug": "js-variables_json__Exercises/Question2_json",
+                "sequence_num": 501,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Define a <span style=\"\">variable</span> a with var a and initialize it to a value of [1,2,3,4]."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var a =[1,2,3,4];<br><br>### Expalanation<br><br>As we know we can assign any value or any datatype to a variable, here we have a list as a value to a variable named as a."
+                    }
+                ]
+            },
+            {
+                "id": "6225",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question3",
+                "slug": "js-variables_json__Exercises/Question3_json",
+                "sequence_num": 502,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What is the <span style=\"\">output</span> of the following <span style=\"\">code</span>?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var a;<br>var b;<br>var c;<br>console.log(a,b,c);<br>console.log(a+2);"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "undefined undefined undefined <br><br>NaN<br><br>### Expalanation<br><br>When the variables are only initialized they have the value of undefined, that’s why when we tried to print before giving value it printed undefined undefined undefined and when you do mathematical operations with undefined it will tell you NaN(not a number).<br>"
+                    }
+                ]
+            },
+            {
+                "id": "6226",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question4",
+                "slug": "js-variables_json__Exercises/Question4_json",
+                "sequence_num": 503,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What is the <span style=\"\">error</span> in the following <span style=\"\">code</span> ?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var full name = \"swati\";<br>console.log(full name);"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "SyntaxError: Unexpected identifier<br><br>### Explanation :  <br><br>Through the above example, we will understand how space doesn’t work to define a variable.full name variable  is defined as swati is throwing error because this is not a way to define a variable.<br><br>### Note : <br><br>After the first letter, we can use digits (0 to 9)."
+                    }
+                ]
+            },
+            {
+                "id": "6232",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question5",
+                "slug": "js-variables_json__Exercises/Question5_json",
+                "sequence_num": 504,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Write a program to store two <span style=\"\">float</span> values as num1 and num2 respectively and show the multiplication of those two values?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var num1=1.2;<br>var num2=3.1;<br>console.log(num1*num2);"
+                    }
+                ]
+            },
+            {
+                "id": "6230",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question6",
+                "slug": "js-variables_json__Exercises/Question6_json",
+                "sequence_num": 505,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What is the <span style=\"\">output</span> of the following <span style=\"\">code</span>?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var firstname=\"Mahendra\";<br>var lastName=\"Bathula\";<br>console.log(firstname+\" \"+lastName);"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "Mahendra Bathula<br><br>### Explanation<br>Here we added two variables firstname and lastName which contain values Mahendra and Bathula respectively. When we are printing space in between so after printing Mahendra we will get a single space and Bathula."
+                    }
+                ]
+            },
+            {
+                "id": "6240",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question7",
+                "slug": "js-variables_json__Exercises/Question7_json",
+                "sequence_num": 506,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What is the <span style=\"\">error</span> in the following <span style=\"\">code</span>?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var str1 = \"Welcome \\tto my campus\";<br>var str2 = \"Welcome to\\n my \\tcampus\";<br>console.log(Str1);"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "ReferenceError: Str1 is not defined<br><br>### Explanation<br>Because str1 is in small letters but we tried to console Str1 so it didn’t get Feedback after submitting that, it threw a reference error."
+                    }
+                ]
+            },
+            {
+                "id": "6227",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question8",
+                "slug": "js-variables_json__Exercises/Question8_json",
+                "sequence_num": 507,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question8.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Create two new <span style=\"\">string</span> <span style=\"\">variables</span>: myFirstName and myLastName and assign them the values of your first and last name, respectively."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var myFirstName=\"Kapil\";<br>var myLastName=\"Sharma\";"
+                    }
+                ]
+            },
+            {
+                "id": "6231",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question9",
+                "slug": "js-variables_json__Exercises/Question9_json",
+                "sequence_num": 508,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question9.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Use backslashes to assign a <span style=\"\">string</span> to the myStr <span style=\"\">variable</span> so that if you were to print it to the console, you would see:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "I am a ‘single quoted’ <span style=\"\">string</span> inside ‘single quotes’."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "// please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "var myStr ='I am a \\'single quoted\\' string inside \\'single quotes\\'.';<br>console.log(myStr);"
+                    }
+                ]
+            },
+            {
+                "id": "6233",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question10",
+                "slug": "js-variables_json__Exercises/Question10_json",
+                "sequence_num": 509,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question10.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Type the character that ends every <span style=\"\">statement</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": ";"
+                    }
+                ]
+            },
+            {
+                "id": "6228",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question11",
+                "slug": "js-variables_json__Exercises/Question11_json",
+                "sequence_num": 510,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question11.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Correct the <span style=\"\">statement</span> with the 2 characters that are missing in this <span style=\"\">statement</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "console.log\"You're learning JavaScript!\";"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "console.log(\"You're learning JavaScript!\");"
+                    }
+                ]
+            },
+            {
+                "id": "6229",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question12",
+                "slug": "js-variables_json__Exercises/Question12_json",
+                "sequence_num": 511,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question12.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "A <b><i><i></i></b></i>__ ends in a semicolon."
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "statement"
+                    }
+                ]
+            },
+            {
+                "id": "6234",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question13",
+                "slug": "js-variables_json__Exercises/Question13_json",
+                "sequence_num": 512,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question13.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Write in a proper format to use console.log?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "Hi there, Sailor! console.log ( ) \" \" ;"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "console.log(“ Hi there,Nayak”);"
+                    }
+                ]
+            },
+            {
+                "id": "6236",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question14",
+                "slug": "js-variables_json__Exercises/Question14_json",
+                "sequence_num": 513,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question14.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Code</span> a console that displays the message \"Hello!\""
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "//please write code here"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "console.log(\" Hello!\");"
+                    }
+                ]
+            },
+            {
+                "id": "6237",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question15",
+                "slug": "js-variables_json__Exercises/Question15_json",
+                "sequence_num": 514,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question15.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Fill in the bank that displays “You won”?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b><i></b></i>(\"You won!\");"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "console.log(“ You won!”);"
+                    }
+                ]
+            },
+            {
+                "id": "6239",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question16",
+                "slug": "js-variables_json__Exercises/Question16_json",
+                "sequence_num": 515,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question16.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What are the 5 punctuation characters of an console <span style=\"\">statement</span>, in order?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "(“”);"
+                    }
+                ]
+            },
+            {
+                "id": "6241",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question17",
+                "slug": "js-variables_json__Exercises/Question17_json",
+                "sequence_num": 516,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question17.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "In the following <span style=\"\">code</span>, \"Nayak\" is a <span style=\"\">string</span>. What is the name (answer with 1 word)?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "var name = \"Nayak\";"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "variable"
+                    }
+                ]
+            },
+            {
+                "id": "6242",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question18",
+                "slug": "js-variables_json__Exercises/Question18_json",
+                "sequence_num": 517,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question18.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What is the <span style=\"\">key</span>word that declares a <span style=\"\">variable</span>?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "var"
+                    }
+                ]
+            },
+            {
+                "id": "6235",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question19",
+                "slug": "js-variables_json__Exercises/Question19_json",
+                "sequence_num": 518,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question19.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "form a <span style=\"\">statement</span> that declares the <span style=\"\">variable</span> punchline and assigns a value to it."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The accountant. punchline var = ; \" \""
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "solution",
+                        "value": "var punchline = “The accountant.”;"
+                    }
+                ]
+            },
+            {
+                "id": "6238",
+                "parent_exercise_id": "6223",
+                "course_id": "212",
+                "name": "Question20",
+                "slug": "js-variables_json__Exercises/Question20_json",
+                "sequence_num": 519,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-variables_json/Exercises/Question20.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Assign a new value to a given <span style=\"\">variable</span>?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "",
+                        "value": "var bestMan = \"kumar\";"
+                    },
+                    {
+                        "component": "code",
+                        "type": "javascript",
+                        "title": "solution",
+                        "value": "bestMan = \"nayak\";"
+                    }
+                ]
+            }
+        ]
+    }
+}

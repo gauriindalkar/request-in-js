@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "id": "4064",
+            "parent_exercise_id": "4064",
+            "name": "Files in Python",
+            "slug": "files__files/files-intro_md",
+            "sequence_num": 0,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/files/files/files-intro.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4065",
+            "parent_exercise_id": "4064",
+            "name": "Question 1",
+            "slug": "files__files/files-question1_md",
+            "sequence_num": 1,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/files/files/files-question1.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4066",
+            "parent_exercise_id": "4064",
+            "name": "Question 2",
+            "slug": "files__files/files-question2_md",
+            "sequence_num": 2,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/files/files/files-question2.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4067",
+            "parent_exercise_id": "4064",
+            "name": "Question 3",
+            "slug": "files__files/files-question3_md",
+            "sequence_num": 3,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/files/files/files-question3.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4068",
+            "parent_exercise_id": "4064",
+            "name": "Question 4",
+            "slug": "files__files/files-question4_md",
+            "sequence_num": 4,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/files/files/files-question4.md",
+            "submission_type": null,
+            "childExercises": []
+        }
+    ]
+}
